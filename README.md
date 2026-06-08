@@ -1,12 +1,12 @@
 # Wire: Automated Initialization in Go
 
-[![Build Status](https://github.com/google/wire/actions/workflows/tests.yml/badge.svg?branch=main)](https://github.com/google/wire/actions)
-[![godoc](https://godoc.org/github.com/google/wire?status.svg)][godoc]
+[![Build Status](https://github.com/yourfork/wire/actions/workflows/tests.yml/badge.svg?branch=main)](https://github.com/yourfork/wire/actions)
+[![godoc](https://godoc.org/github.com/yourfork/wire?status.svg)][godoc]
 
-> [!WARNING]
-> This project is no longer maintained.
->
-> If you wish to update or extend wire, please do so in a fork.
+> [!NOTE]
+> This is a **community-maintained fork** of the original Google Wire project.  
+> It has been updated to support modern Go versions (1.18+), including full compatibility with generics and the latest toolchains.  
+> All original features are preserved, and we welcome contributions to keep Wire usable in the evolving Go ecosystem.
 
 Wire is a code generation tool that automates connecting components using
 [dependency injection][]. Dependencies between components are represented in
@@ -19,15 +19,14 @@ For an overview, see the [introductory blog post][].
 
 [dependency injection]: https://en.wikipedia.org/wiki/Dependency_injection
 [introductory blog post]: https://blog.golang.org/wire
-[godoc]: https://godoc.org/github.com/google/wire
-[travis]: https://travis-ci.com/google/wire
+[godoc]: https://godoc.org/github.com/yourfork/wire
 
 ## Installing
 
 Install Wire by running:
 
 ```shell
-go install github.com/google/wire/cmd/wire@latest
+go install github.com/shanjunmei/wire/cmd/wire@latest
 ```
 
 and ensuring that `$GOPATH/bin` is added to your `$PATH`.
